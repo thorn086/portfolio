@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    line-height: 1.5;
+    font-size: 19px;
+   
+}
+
+header{
+    padding: 10% 0;
+}
+nav{
+    position: fixed;
+}
+nav, footer{
+    width: 100%;
+    height: 30px;
+    background: gray;
+}
+
+section{
+    min-height: 100px;
+    padding: 6% 0;
+}
+
+#name{
+    background: rgb(216, 205, 205);
+}
+#email{
+    background: rgb(153, 143, 143);
+}
+#projects{
+    background: rgb(228, 227, 227);
+}
+#bio{
+    background: rgb(148, 137, 137);
+}
