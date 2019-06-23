@@ -21,13 +21,9 @@ nav, footer{
     background: gray;
 }
 
-section{
-    min-height: 100px;
-    padding: 6% 0;
-}
 
 #name{
-    background: rgb(216, 205, 205);
+    background:white;
 }
 #email{
     background: rgb(153, 143, 143);
@@ -37,4 +33,91 @@ section{
 }
 #bio{
     background: rgb(148, 137, 137);
+}
+
+
+  
+footer {
+    position: relative;
+    margin-top: -80px;
+    height: 80px;
+    clear: both;
+    background-color: rgb(219, 218, 218);
+    
+}
+
+#name {
+    float: left;
+    width: 100px;
+    height: 500px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    
+    
+}
+#name p {
+    margin: 0 0 210px 30px;
+    font-size: 20px;
+    border-right: 1px solid black;
+}
+#name span{
+    color: rgb(62, 241, 62);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#email, #bio, #content {
+    display: none;
+}
+
+h1 {
+    color:transparent;
+}
+p { 
+    margin:0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(219, 218, 218);
+}
+li {
+    float: left;
+    margin-left: 10px;
+    margin-right:6px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+li a {
+    text-decoration: none;
+}
+.links {
+    float: right;
+    border-left: 1px solid black;
+}
+
+
+li:hover {
+    cursor: grab;
+    background-color: black;
+    color:yellow;
+}
+
+#projects {
+    float: right;
+    width: 200px;
+    height: 300px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
