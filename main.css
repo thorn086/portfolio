@@ -7,12 +7,13 @@
 
 body {
     line-height: 1.5;
-    
-    
+
+
 
 }
-main{
-    background-image:linear-gradient(to right, rgb(209, 207, 207),rgb(221, 252, 186));
+
+main {
+    background-image: linear-gradient(to right, rgb(209, 207, 207), rgb(221, 252, 186));
 }
 
 header {
@@ -84,7 +85,7 @@ h1 span {
 
 ul {
     list-style-type: none;
-    padding: 10px 8px 0 0;
+    padding: 10px 0 0 0;
     overflow: hidden;
     border: none;
 }
@@ -95,10 +96,10 @@ li {
     text-align: center;
     font-size: 16px;
     font-family: 'Orbitron', sans-serif;
-    margin: 12px 20px 0 20px;
+    margin: 12px 30px 0 0;
     text-decoration: none;
     color: rgb(253, 16, 8);
-    
+
 }
 
 li a {
@@ -133,45 +134,62 @@ li:hover {
     font-size: 16px;
 }
 
-.bio{
-    font-size: 30px;
-    
+.bio {
+    font-size: 18px;
+
 }
-.mpage{
+
+.mpage {
     font-size: 20px;
-    
+    margin-bottom: 8px;
+    margin-left: 20px;
+
 }
+
 img {
     width: 300px;
     height: 300px;
     cursor: grab;
 }
-@media screen and (min-width:768px){
 
-    .bio, .mpage{
-        float:left;
+.tech-list {
+    font-size: 12px;
+}
+
+@media screen and (min-width:768px) {
+
+    .bio,
+    .mpage {
+        float: left;
     }
-    li{
-        float:right;
+
+    li {
+        float: right;
     }
-    ul{
-        padding:0;
+
+    ul {
+        padding: 0;
     }
-    #projects{
-        margin-top:30px;
+
+    #projects {
+        margin-top: 30px;
     }
-    img{
-        width:500px;
+
+    img {
+        width: 500px;
         height: 500px;
     }
-    p{
-        font-size:20px;
+
+    p {
+        font-size: 20px;
     }
-    main{
-        width:100%;
-        height: 1000px;
+
+    main {
+        width: 100%;
+        height: 3000px;
     }
-    .about{
+
+    .about {
         font-size: 20px;
     }
 
