@@ -11,17 +11,23 @@ function imagePage() {
         </section>
         <section class="information">
             <h3>Human Anatomy Quiz</h3>
-            <p class="about">This is a quiz based on the human body. It displays a series of ten questions that the user
-                must select from.  It was made as a project to develope my skills using html,css,JavaScrip and Jquery.  
+            <p> I created this quiz to display my knowledge on human anatomy.  
+                It allows users to test their knowledge and compare if the are as smart 
+                as a doctor.  It has ten total questions, a right and wrong feedback and 
+                restart feature for the user to play with.    
             </p>
-            <p class="about">Technolgy used:
+            <p>Technolgy used:</p>
+            <div id="list">
+              <div class="horizontal">
                 <ul class="tech-list">
                     <li>Html</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>JQuery</li>
                  </ul>
-            </p>
+             </div>
+            </div>
+            
             <p><a href="https://github.com/thorn086/Quiz-App-Assignment" target="_blank">GitHub Repo </a></p>
 
             <p><a href="https://thorn086.github.io/Quiz-App-Assignment/" target="_blank">Live Link </a></p>

@@ -7,9 +7,6 @@
 
 body {
     line-height: 1.5;
-
-
-
 }
 
 main {
@@ -24,13 +21,10 @@ header {
 #name {
     width: 100%;
     height: 40px;
-
 }
 
 h2 {
     font-size: 14px;
-
-
 }
 
 nav {
@@ -46,11 +40,6 @@ footer {
     height: 50px;
     background: white;
 }
-
-
-
-
-
 
 footer {
     position: relative;
@@ -83,14 +72,14 @@ h1 span {
 }
 
 
-ul {
+nav ul {
     list-style-type: none;
     padding: 10px 0 0 0;
     overflow: hidden;
     border: none;
 }
 
-li {
+.top-bar li {
     display: inline;
     text-orientation: inherit;
     text-align: center;
@@ -102,7 +91,7 @@ li {
 
 }
 
-li a {
+.top-bar li a {
     text-decoration: none;
     color: rgb(253, 16, 8);
 
@@ -121,7 +110,7 @@ li a {
     text-align: left;
 }
 
-li:hover {
+nav li:hover {
     cursor: grab;
 }
 
@@ -156,7 +145,38 @@ img {
     font-size: 12px;
 }
 
-@media screen and (min-width:768px) {
+.haq {
+    color: black;
+
+}
+
+.haq p {
+    text-align: left;
+    padding: 10px;
+}
+
+
+.tech-list {
+    display: inline-block;
+    padding: 0;
+    height: 84px;
+    list-style-type: none;
+    
+}
+
+.horizontal {
+    padding-left: 60px;
+    margin:0;
+    text-align: left;
+}
+
+.tech-list li {
+    font-size: 12px;
+    text-align: initial;
+}
+
+
+/*@media screen and (min-width:768px) {
 
     .bio,
     .mpage {
@@ -186,11 +206,11 @@ img {
 
     main {
         width: 100%;
-        height: 3000px;
+        height: auto;
     }
 
     .about {
         font-size: 20px;
     }
 
-}
+}*/
