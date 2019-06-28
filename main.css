@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
     text-align: center;
     margin: 0;
@@ -165,16 +165,24 @@ img {
 }
 
 .horizontal {
-    padding-left: 60px;
+    padding-left: 66px;
     margin:0;
     text-align: left;
 }
 
 .tech-list li {
-    font-size: 12px;
+    font-size: 14px;
     text-align: initial;
 }
 
+#references{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+    
+}
 
 /*@media screen and (min-width:768px) {
 

@@ -9,7 +9,7 @@ function imagePage() {
                     class="hidden">Quiz
                     App</span></a>
         </section>
-        <section class="information">
+      <section class="information">
             <h3>Human Anatomy Quiz</h3>
             <p> I created this quiz to display my knowledge on human anatomy.  
                 It allows users to test their knowledge and compare if the are as smart 
@@ -27,11 +27,12 @@ function imagePage() {
                  </ul>
              </div>
             </div>
-            
+         <div id="references">
             <p><a href="https://github.com/thorn086/Quiz-App-Assignment" target="_blank">GitHub Repo </a></p>
 
             <p><a href="https://thorn086.github.io/Quiz-App-Assignment/" target="_blank">Live Link </a></p>
-        </section>
+         </div>
+      </section>
     </div>`;
 }
 
