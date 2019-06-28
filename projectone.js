@@ -5,7 +5,7 @@ function imagePage() {
             <a class="currentPro"><img src="portfolio-scetch/Quiz-App.png" alt="Quiz App Photo"><span
                     class="hidden">Quiz
                     App</span></a>
-            <a class="currentPro"><img src="portfolio-scetch/question.png" alt="Quiz App Photo"><span
+            <a class="currentPro"><img src="portfolio-scetch/Question.png" alt="Quiz App Photo"><span
                     class="hidden">Quiz
                     App</span></a>
         </section>
