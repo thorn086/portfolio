@@ -78,7 +78,9 @@
      overflow: hidden;
      border: none;
  }
-
+.top-bar{
+    padding: 15px 0 0 18px;
+}
  .top-bar li {
      display: inline;
      text-orientation: inherit;
