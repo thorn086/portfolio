@@ -12,9 +12,9 @@ function imagePage() {
       <section class="information">
             <h3>Human Anatomy Quiz</h3>
             <p> I created this quiz to display my knowledge on human anatomy.  
-                It allows users to test their knowledge and compare if the are as smart 
+                It allows users to test their knowledge and compare if they are as smart 
                 as a doctor.  It has ten total questions, a right and wrong feedback and 
-                restart feature for the user to play with.    
+                restart feature.    
             </p>
             <p>Technolgy used:</p>
             <div id="list">

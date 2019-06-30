@@ -106,8 +106,12 @@
      font-size: 16px;
      font-family: 'Orbitron', sans-serif;
      line-height: 1.5;
-     padding: 20px;
+     padding: 30px 0 0 0;
      text-align: left;
+     width: 85%;
+     height: auto;
+     margin:auto;
+
  }
 
  li:hover {
@@ -188,7 +192,11 @@
 .currentPro1 img:hover{
     cursor: default;
 }
- @media screen and (min-width:768px) {
+
+#about-me{
+    padding:3%;
+}
+ @media screen and (min-width:405px) {
 
 
      .top-bar {
@@ -204,7 +212,7 @@
 
      .fas,
      .fab {
-         font-size: 35px;
+         font-size: 28px;
      }
      h1{
          padding: 10px 0 0 30px;
@@ -216,7 +224,7 @@
         justify-content: space-between;
     }
     #name h2{
-        margin-right: 100px;
+        margin-right: 10px;
         padding: 30px 0;
         font-size: 16px;
     }
@@ -230,14 +238,15 @@
      }
 
      p {
-         font-size: 20px;
+         font-size: 19px;
      }
 
      .about {
-         width: 55%;
+         width: 80%;
          height: auto;
          margin: auto;
-         font-size: 20px;
+         font-size: 17px;
+         padding: 35px 10px 5px 10px;
 
      }
 
@@ -251,10 +260,14 @@
      }
 
  }
- @media screen and (min-width:1440px){
+ @media screen and (min-width:655px){
      h1{
          font-size: 40px;
          
+     }
+     .fas,
+     .fab {
+         font-size: 35px;
      }
      h1 span {
          font-size: 50px;
@@ -277,12 +290,16 @@
      #projects h2{
         font-size: 30px;
     }
+    #about-me{
+        padding:5%
+    }
 
      .about{
-        width: 40%;
+        width: 75%;
         height: auto;
         margin: auto;
-        font-size: 26px;
+        font-size: 19px;
+        padding: 40px 15px 10px 15px;
      }
      .information {
         width: 55%;
@@ -291,12 +308,123 @@
     }
 
     .information p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .information li{
         font-size: 20px;
     }
     h3{
-        font-size: 35px;
+        font-size: 30px;
     }
  }
+ @media screen and (min-width:839px){
+    h1{
+        font-size: 40px;
+        
+    }
+    .fas,
+    .fab {
+        font-size: 38px;
+    }
+    h1 span {
+        font-size: 50px;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #name h2{
+        margin-right: 100px;
+        padding: 30px 0;
+        font-size: 18px;
+    }
+    img{
+        width:600px;
+        height: 600px;
+    }
+    
+    #projects h2{
+       font-size: 30px;
+   }
+
+    .about{
+       width: 70%;
+       height: auto;
+       margin: auto;
+       font-size: 20px;
+       padding: 55px 40px 5px 40px;
+    }
+    .information {
+       width: 55%;
+       height: auto;
+       margin: auto; 
+   }
+
+   .information p{
+       font-size: 24px;
+   }
+   .information li{
+       font-size: 20px;
+   }
+   h3{
+       font-size: 35px;
+   }
+}
+@media screen and (min-width:1100px){
+    h1{
+        font-size: 40px;
+        
+    }
+    .fas,
+    .fab {
+        font-size: 35px;
+    }
+    #about-me{
+        padding:6%;
+    }
+    h1 span {
+        font-size: 50px;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #name h2{
+        margin-right: 100px;
+        padding: 30px 0;
+        font-size: 18px;
+    }
+    img{
+        width:600px;
+        height: 600px;
+    }
+    
+    #projects h2{
+       font-size: 30px;
+   }
+
+    .about{
+       width: 75%;
+       height: 100%;
+       margin: auto;
+       font-size: 22px;
+       padding: 60px 40px 12px 40px;
+    }
+    .information {
+       width: 55%;
+       height: auto;
+       margin: auto; 
+   }
+
+   .information p{
+       font-size: 26px;
+   }
+   .information li{
+       font-size: 20px;
+   }
+   h3{
+       font-size: 35px;
+   }
+}
