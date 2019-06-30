@@ -123,7 +123,8 @@
      height: auto;
      margin: 20px 0 20px 0;
      font-family: 'Orbitron', sans-serif;
-     font-size: 16px;
+     font-size: 14px;
+     padding:5px;
  }
 
  .bio {
@@ -196,6 +197,10 @@
 #about-me{
     padding:3%;
 }
+.information{
+    font-size: 13px;
+    padding:1%;
+}
  @media screen and (min-width:405px) {
 
 
@@ -250,11 +255,6 @@
 
      }
 
-     .information {
-         width: 60%;
-         height: auto;
-         margin: auto;
-     }
      h3{
          font-size: 25px;
      }
@@ -302,14 +302,12 @@
         padding: 40px 15px 10px 15px;
      }
      .information {
-        width: 55%;
+        width: 75%;
         height: auto;
         margin: auto; 
+        font-size: 16px;
     }
 
-    .information p{
-        font-size: 20px;
-    }
     .information li{
         font-size: 20px;
     }
@@ -356,16 +354,15 @@
        padding: 55px 40px 5px 40px;
     }
     .information {
-       width: 55%;
+       width: 90%;
        height: auto;
-       margin: auto; 
+       font-size: 20px;
+       
    }
 
-   .information p{
-       font-size: 24px;
-   }
+   
    .information li{
-       font-size: 20px;
+       font-size: 16px;
    }
    h3{
        font-size: 35px;
@@ -409,20 +406,19 @@
        width: 75%;
        height: 100%;
        margin: auto;
-       font-size: 22px;
+       font-size: 24px;
        padding: 60px 40px 12px 40px;
     }
     .information {
-       width: 55%;
+       width: 65%;
        height: auto;
-       margin: auto; 
+       margin: auto;
+       font-size: 24px; 
    }
 
-   .information p{
-       font-size: 26px;
-   }
+   
    .information li{
-       font-size: 20px;
+       font-size: 18px;
    }
    h3{
        font-size: 35px;
