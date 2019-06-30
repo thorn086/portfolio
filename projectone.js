@@ -2,10 +2,10 @@ function imagePage() {
     return `
     <div class="haq">
         <section id="projects">
-            <a class="currentPro"><img src="portfolio-scetch/Quiz-App.png" alt="Quiz App Photo"><span
+            <a class="currentPro1"><img src="portfolio-scetch/Quiz-App.png" alt="Quiz App Photo"><span
                     class="hidden">Quiz
                     App</span></a>
-            <a class="currentPro"><img src="portfolio-scetch/Question.png" alt="Quiz App Photo"><span
+            <a class="currentPro1"><img src="portfolio-scetch/Question.png" alt="Quiz App Photo"><span
                     class="hidden">Quiz
                     App</span></a>
         </section>
