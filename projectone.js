@@ -40,7 +40,19 @@ function displayPage() {
     $('#projects').on('click', 'img', function (event) {
 
         return $('.currentPro').html(imagePage());
+              
     });
 }
 
-$(displayPage());
+function removeParagraph(){
+    $('#projects').on('click','img', function (event){
+        return $('#click').remove();
+    });
+}
+
+function displayRender(){
+    displayPage()
+    removeParagraph()
+}
+
+$(displayRender());
