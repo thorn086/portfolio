@@ -189,7 +189,7 @@
  }
 #apps, #api{
     position: relative;
-    border: 5px groove black;
+    border: 5px ridge black;
     width: 90%;
     height: auto;
     margin: 20px ;
