@@ -24,14 +24,16 @@
  }
 
  h2 {
-     font-size: 14px;
+     font-size: 20px;
  }
 
  nav {
      position: relative;
      border-top: 1px solid black;
      border-bottom: 1px solid black;
-     margin: 0;
+     padding-left: 14px;
+     margin: 12px 0;
+
  }
 
  nav,
@@ -78,6 +80,7 @@
      padding: 10px 0 0 0;
      overflow: hidden;
      border: none;
+     
  }
 .top-bar{
     padding: 15px 0 0 18px;
@@ -117,11 +120,11 @@
 
  }
 
- li:hover, .currentPro img {
+ li:hover {
      cursor: pointer;
  }
 
- #projects {
+ .projects {
      width: 100%;
      height: auto;
      margin: 20px 0 20px 0;
@@ -143,8 +146,8 @@
  }
 
  img {
-     width: 300px;
-     height: 300px;
+     width: 280px;
+     height: 280px;
      cursor: grab;
  }
 
@@ -153,7 +156,10 @@
  }
 
  .haq {
-     color: black;
+     color: white;
+     border: 5px ridge white;
+     margin: auto;
+     background-color: rgb(78, 78, 78);
 
  }
 
@@ -181,17 +187,81 @@
      font-size: 14px;
      text-align: initial;
  }
+#apps, #api{
+    position: relative;
+    border: 5px groove black;
+    width: 90%;
+    height: auto;
+    margin: 20px ;
+    
+   
+}
+ .qz, .wrkPtrn{
+     display: block;
+     width: 250px;
+     height: 250px;
+     padding: 5px 10px 10px 30px;
+     margin: 0;
 
- #references {
+ }
+
+ .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(78, 78, 78);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  #apps:hover .overlay, #api:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    width:100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+  }
+  .text h3 {
+      margin-top: 15px;
+      font-size: 22px;
+      color: rgb(52, 255, 1);
+  }
+  .text p{
+    word-break: normal;
+    white-space: normal;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    padding:14px;
+  }
+
+
+ #references, #references-wp {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
      margin-top: 20px;
  }
 
- #references a {
+ #references a, #references-wp a {
      text-decoration: none;
-     color: rgb(253, 16, 8);
+     font-size: 16px;
+     color: rgb(52, 255, 1);
  }
 .currentPro1 img:hover{
     cursor: default;
@@ -203,7 +273,12 @@
 .information{
     font-size: 13px;
     padding:1%;
+    line-height: 1.8;
 }
+.information h3{
+    color: rgb(52, 255, 1);
+}
+
  @media screen and (min-width:405px) {
 
 
@@ -237,16 +312,16 @@
         font-size: 16px;
     }
 
-     img {
+    img {
          width: 350px;
          height: 350px;
-     }
-     #projects h2{
+    }
+     .projects h2{
          font-size: 25px;
      }
 
      p {
-         font-size: 19px;
+         font-size: 16px;
      }
 
      .about {
@@ -261,7 +336,12 @@
      h3{
          font-size: 25px;
      }
-
+     .qz, .wrkPtrn{
+        width: 350px;
+        height: 350px; 
+     }
+     .text p{
+         font-size: 16px}
  }
  @media screen and (min-width:655px){
      h1{
@@ -317,6 +397,39 @@
     h3{
         font-size: 30px;
     }
+    #apps, #api{
+        margin:auto;
+        
+    }
+    #apps{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .qz, .wrkPtrn{
+        width: 500px;
+        height: 500px; 
+        margin: auto;
+     }
+     #apps h2, #api h2{
+         font-size: 30px;
+         
+     }
+     .text p{
+         width: 75%;
+         margin:auto;
+         font-size: 18px;
+     }
+     .text h3{
+        margin: 20px 0;
+        font-size: 24px;
+     }
+     #references a, #references-wp a{
+         font-size: 19px;
+         margin-left:60px;
+     }
+     .horizontal{
+         margin-left: 80px;
+     }
  }
  @media screen and (min-width:839px){
     h1{
@@ -341,11 +454,12 @@
         font-size: 18px;
     }
     img{
-        width:600px;
-        height: 600px;
+        width:400px;
+        height: 400px;
+        display: inline-block;
     }
     
-    #projects h2{
+    .projects h2{
        font-size: 30px;
    }
 
@@ -370,6 +484,27 @@
    h3{
        font-size: 35px;
    }
+   #references a, #references-wp a{
+    font-size: 19px;
+    margin-left:90px;
+}
+.text p{
+    width: 70%;
+    margin:auto;
+    font-size: 20px;
+}
+.wrkPtrn{
+    width: 350px;
+    height: 350px;
+    
+}
+.qz{
+    width: 350px;
+    height: 450px;
+}
+.wrkPtrn, .qz{
+    display: inline-block;
+}
 }
 @media screen and (min-width:1100px){
     h1{
@@ -429,4 +564,26 @@
    h3{
        font-size: 35px;
    }
+   .qz, .wrkPtrn{
+       display: inline-block;
+       width: 400px;
+       height: 400px;
+   }
+   .text{
+    width: 75%;
+   }
+   .text p{
+       font-size: 20px;
+       line-height: 1.5;
+   }
+   .text h3{
+       font-size: 35px;
+       margin-top: 20px;
+   }
+   #references a, #references-wp a{
+    font-size: 20px;
+    margin-left:120px;
+    
+}
+
 }
