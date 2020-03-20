@@ -9,13 +9,21 @@
      line-height: 1.5;
  }
 
- main {
-     background-image: linear-gradient(to right, rgb(209, 207, 207), rgb(221, 252, 186));
+ main, body {
+    width:100%;
+    background:url("./portfolio-scetch/computer_image2.jpg")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
  }
 
  header {
      width: 100%;
-     height: 80px;
+     height: 100px;
+     color: white;
+     background-color: rgba(147, 55, 155, 0.9); ;
+     text-shadow: 1px 1px black;
  }
 
  #name {
@@ -29,18 +37,17 @@
 
  nav {
      position: relative;
-     border-top: 1px solid black;
-     border-bottom: 1px solid black;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
      padding-left: 14px;
      margin: 12px 0;
-
  }
 
  nav,
  footer {
      width: 100%;
      height: 50px;
-     background: white;
+     background-color: rgba(147, 55, 155, 0.9);
      padding-right: 10px;
  }
 
@@ -58,7 +65,7 @@
  }
 
  h1 span {
-     color: rgb(253, 16, 8);
+     color: rgb(106, 255, 0);
      font-size: 40px;
      font-weight: bold;
      font-family: 'Kaushan Script', cursive;
@@ -82,6 +89,28 @@
      border: none;
      
  }
+ .title{
+     color: rgb(254, 254, 254);
+     text-shadow: 1px 1px black;
+     background-color: rgba(89, 89, 89, 0.9);
+     width: 13rem;
+     height: 3rem;
+     padding: 5px;
+     margin: 2rem auto;
+     border-radius: 2rem;
+     font-size: 25px;
+ }
+ .title_info{
+    color: rgb(254, 254, 254);
+    text-shadow: 1px 1px black;
+    background-color: rgba(81, 80, 80, 0.9);
+    width: 18rem;
+    height: 10rem;
+    padding: 35px 7px;
+    margin: 2rem auto;
+    font-size: 14px;
+    border-radius: 2rem;
+ }
 .top-bar{
     padding: 15px 0 0 18px;
 }
@@ -93,13 +122,13 @@
      font-family: 'Orbitron', sans-serif;
      margin: 12px 30px 0 0;
      text-decoration: none;
-     color: rgb(253, 16, 8);
+     color: rgb(255, 255, 255);
 
  }
 
  .top-bar li a {
      text-decoration: none;
-     color: rgb(253, 16, 8);
+     color: rgb(255, 255, 255);
 
  }
 
@@ -181,59 +210,43 @@
      padding-left: 66px;
      margin: 0;
      text-align: left;
+     text-shadow: -2px -1px black;
  }
 
  .tech-list li {
      font-size: 14px;
      text-align: initial;
  }
-#apps, #api{
+#apps, #api, #wine_vineyard, #restaurant_forum{
     position: relative;
     border: 5px ridge black;
     width: 90%;
     height: auto;
     margin: 20px ;
-    
+    padding: 10px;
+    background-color: rgba(147, 55, 155, 0.9);    
    
 }
- .qz, .wrkPtrn{
+ .qz, .wrkPtrn, .wineVine, .restForm{
      display: block;
      width: 250px;
      height: 250px;
      padding: 5px 10px 10px 30px;
      margin: 0;
-
  }
 
- .overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: rgb(78, 78, 78);
-    overflow: hidden;
-    width: 100%;
-    height:0;
-    transition: 1s ease;
-  }
-  
-  #apps:hover .overlay, #api:hover .overlay {
-    bottom: 0;
-    height: 100%;
-  }
-  
   .text {
     white-space: nowrap; 
     color: white;
     font-size: 16px;
-    position: absolute;
     overflow: hidden;
-    top: 50%;
-    left: 50%;
+    margin: auto;
     width:100%;
     height: 100%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(96, 24, 103);
+    border: 1px solid white;
+    border-radius: 2rem;
+    
     
   }
   .text h3 {
@@ -248,20 +261,22 @@
     margin-top: 20px;
     font-size: 14px;
     padding:14px;
+    text-shadow: -2px -1px black;
   }
 
 
- #references, #references-wp {
+ #references, #references-wp, #references-wv, #references-rf {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
      margin-top: 20px;
  }
 
- #references a, #references-wp a {
+ #references a, #references-wp a, #references-wv a, #references-rf a {
      text-decoration: none;
      font-size: 16px;
-     color: rgb(52, 255, 1);
+     color: white;
+     text-shadow: -2px -1px black;
  }
 .currentPro1 img:hover{
     cursor: default;
@@ -277,6 +292,11 @@
 }
 .information h3{
     color: rgb(52, 255, 1);
+}
+#apps h2, #api h2, #wine_vineyard h2,#restaurant_forum h2{
+    color: white;
+    text-shadow: 1px 1px black;
+    
 }
 
  @media screen and (min-width:405px) {
@@ -336,7 +356,7 @@
      h3{
          font-size: 25px;
      }
-     .qz, .wrkPtrn{
+     .qz, .wrkPtrn, .wineVine, .restForm{
         width: 350px;
         height: 350px; 
      }
@@ -397,20 +417,20 @@
     h3{
         font-size: 30px;
     }
-    #apps, #api{
+    #apps, #api,#wine_vineyard,#restaurant_forum{
         margin:auto;
         
     }
-    #apps{
+    #apps, #api,#wine_vineyard,#restaurant_forum{
         margin-bottom: 30px;
         margin-top: 10px;
     }
-    .qz, .wrkPtrn{
+    .qz, .wrkPtrn, .wineVine, .restForm{
         width: 500px;
         height: 500px; 
         margin: auto;
      }
-     #apps h2, #api h2{
+     #apps h2, #api h2, #wine_vineyard h2,#restaurant_forum h2{
          font-size: 30px;
          
      }
@@ -423,7 +443,7 @@
         margin: 20px 0;
         font-size: 24px;
      }
-     #references a, #references-wp a{
+     #references a, #references-wp a, #references-wv a, #references-rf a{
          font-size: 19px;
          margin-left:60px;
      }
@@ -484,7 +504,7 @@
    h3{
        font-size: 35px;
    }
-   #references a, #references-wp a{
+   #references a, #references-wp a, #references-wv a, #references-rf a{
     font-size: 19px;
     margin-left:90px;
 }
@@ -493,7 +513,7 @@
     margin:auto;
     font-size: 20px;
 }
-.wrkPtrn{
+.wrkPtrn, .wineVine, .restForm{
     width: 350px;
     height: 350px;
     
@@ -502,9 +522,12 @@
     width: 350px;
     height: 450px;
 }
-.wrkPtrn, .qz{
+.wrkPtrn, .qz, .wineVine, .restForm{
     display: inline-block;
 }
+}
+.horizontal{
+    margin-left: 150px;
 }
 @media screen and (min-width:1100px){
     h1{
@@ -564,7 +587,7 @@
    h3{
        font-size: 35px;
    }
-   .qz, .wrkPtrn{
+   .qz, .wrkPtrn, .wineVine, .restForm{
        display: inline-block;
        width: 400px;
        height: 400px;
@@ -580,10 +603,13 @@
        font-size: 35px;
        margin-top: 20px;
    }
-   #references a, #references-wp a{
+   #references a, #references-wp a, #references-wv a, #references-rf a{
     font-size: 20px;
     margin-left:120px;
     
+}
+.horizontal{
+    margin-left: 150px;
 }
 
 }
