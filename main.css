@@ -19,6 +19,7 @@
  }
 
  header {
+     margin-top: 5rem;
      width: 100%;
      height: 100px;
      color: white;
@@ -37,9 +38,9 @@
  }
 
  nav {
-     position: relative;
+     position: fixed;
+     top:0;
      padding-left: 14px;
-     margin: 12px 0;
  }
 
  nav,
@@ -233,8 +234,7 @@
      text-align: initial;
  }
 #apps, #api, #wine_vineyard, #restaurant_forum{
-    position: relative;
-    border: 5px ridge black;
+    border: 5px solid black;
     width: 90%;
     height: auto;
     margin: 20px ;
