@@ -232,7 +232,7 @@
  }
 
  .tech-list li {
-     font-size: 14px;
+     font-size: 17px;
      text-align: initial;
  }
 #apps, #api, #wine_vineyard, #restaurant_forum{
@@ -256,7 +256,6 @@
   .text {
     white-space: nowrap; 
     color: white;
-    font-size: 16px;
     overflow: hidden;
     margin: auto;
     width:100%;
@@ -277,7 +276,7 @@
     white-space: normal;
     text-align: left;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 18px;
     padding:14px;
     text-shadow: -2px -1px black;
   }
@@ -479,6 +478,9 @@
      }
      .horizontal{
          margin-left: 80px;
+     }
+     .tech-list li{
+         font-size: 20px;
      }
  }
  @media screen and (min-width:839px){
