@@ -147,19 +147,21 @@
      font-size: 16px;
      text-align: left;
  }
-
+#about-me{
+    width: 100%;
+}
  .about {
      font-size: 16px;
      font-family: 'Orbitron', sans-serif;
      line-height: 1.5;
-     padding: 30px 0 0 0;
+     padding: 20px;
      text-align: left;
-     width: 85%;
+     width: 100%;
      height: auto;
      margin:auto;
-     color: rgb(254, 254, 254);
-     text-shadow: 1px 1px black;
-     background-color: rgba(70, 26, 74, 0.948); 
+     color: rgb(255, 255, 255);
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     background-color: rgba(117, 2, 148, 0.954); 
      
 
 
