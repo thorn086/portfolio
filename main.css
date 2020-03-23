@@ -130,7 +130,7 @@
      text-orientation: inherit;
      text-align: center;
      font-size: 16px;
-     font-family: 'Orbitron', sans-serif;
+     font-family: 'Playfair Display', serif;
      margin: 12px 30px 0 0;
      text-decoration: none;
      color: rgb(255, 255, 255);
@@ -152,7 +152,7 @@
 }
  .about {
      font-size: 16px;
-     font-family: 'Orbitron', sans-serif;
+     font-family: 'Playfair Display', serif;     
      line-height: 1.5;
      padding: 20px;
      text-align: left;
@@ -175,7 +175,7 @@
      width: 100%;
      height: auto;
      margin: 20px 0;
-     font-family: 'Orbitron', sans-serif;
+     font-family: 'Playfair Display', serif;
      font-size: 14px;
      padding:5px;
  }
