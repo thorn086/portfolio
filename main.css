@@ -153,7 +153,7 @@
  .about {
      font-size: 16px;
      font-family: 'Playfair Display', serif;     
-     line-height: 1.5;
+     line-height: 2;
      padding: 20px;
      text-align: left;
      width: 100%;
@@ -431,7 +431,7 @@
         height: auto;
         margin: auto;
         font-size: 19px;
-        padding: 40px 15px 10px 15px;
+        padding: 40px 20px;
      }
      .information {
         width: 75%;
@@ -534,7 +534,7 @@
        height: auto;
        margin: auto;
        font-size: 20px;
-       padding: 55px 40px 5px 40px;
+       padding: 55px 40px;
     }
     .information {
        width: 90%;
@@ -632,7 +632,7 @@
        height: 100%;
        margin: auto;
        font-size: 24px;
-       padding: 60px 40px 12px 40px;
+       padding: 30px 40px;
     }
     .information {
        width: 65%;
